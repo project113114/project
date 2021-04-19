@@ -33,5 +33,5 @@ then
 elif [$arg == 4]
   echo "option is four"
 else 
-  "enter the correct option "
+  echo "enter the correct option "
 fi
