@@ -23,7 +23,7 @@ read -p "Enter the option " arg
 if ["$arg" == 1]
 then
   echo "option is one "
-  python project_main.py
+  $ python project_main.py
 elif ["$arg" == 2]
 then
   echo "option is two "
