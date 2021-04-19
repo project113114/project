@@ -10,7 +10,7 @@ colorama.init(autoreset = True)
 
 def dec1(fun):
   def exc():
-    print(f"{Fore.GREEN} excuting now")
+    print(f"{Fore.GREEN} excuting know")
     fun()
     print(f"{Fore.GREEN} excuted")
   return exc
