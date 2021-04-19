@@ -31,6 +31,7 @@ elif [$arg == 3]
 then
   echo "option os three"
 elif [$arg == 4]
+then 
   echo "option is four"
 else 
   echo "enter the correct option "
