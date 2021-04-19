@@ -34,3 +34,6 @@ logo_py="""
 ╚═╝░░░░░░░░╚═╝░░░░░░╚═╝░░░╚═╝░░╚═╝░╚════╝░╚═╝░░╚══╝
 """
 print(logo_project)
+
+# some options for opration 
+print(f"{Fore.RED}OPTIONS"+ f"{Fore.GREEN} for oprations ")
