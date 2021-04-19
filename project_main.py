@@ -5,7 +5,7 @@ import colorama
 from colorama import Fore,Back,Style
 im
 colorama.init(autoreset = True)
-#class 
+#class is not there
 
 
 def dec1(fun):
