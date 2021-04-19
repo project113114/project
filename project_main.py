@@ -1,9 +1,9 @@
-import tutrle 
+import turtle 
 import colorama 
 from colorama import Fore, Back , Style
 colorama.init(autoreset = True)
 
-object = tutrle.Tutrle()
+object = turtle.Turtle()
 object.forward(200)
 object.pencolor("red")
 
