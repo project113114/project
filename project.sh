@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /data/data/com.termux/files/usr/bin/bash
 clear
 
 logo = """
@@ -11,7 +11,7 @@ logo = """
 ██║░░░░░░░░██║░░░░░░██║░░░██║░░██║╚█████╔╝██║░╚███║  ██║░░░░░██║░░██║╚█████╔╝╚█████╔╝███████╗╚█████╔╝░░░██║░░░
 ╚═╝░░░░░░░░╚═╝░░░░░░╚═╝░░░╚═╝░░╚═╝░╚════╝░╚═╝░░╚══╝  ╚═╝░░░░░╚═╝░░╚═╝░╚════╝░░╚════╝░╚══════╝░╚════╝░░░░╚═╝░░░
 """
-echo $logo
+echo "$logo"
 
 echo "choose the option ;"
 echo "(01) for first "
@@ -20,19 +20,10 @@ echo "(03) for 3rd "
 echo "(04) for 4th "
 
 read -p "Enter the option " arg 
-if ["$arg" == "1"];
-then
-  echo "option is one "
-  python project_main.py
-elif ["$arg" == "2"];
-then
-  echo "option is two "
-elif ["$arg" == "3"];
-then
-  echo "option os three"
-elif ["$arg" == "4"];
-then 
-  echo "option is four"
-else 
-  echo "enter the correct option "
-fi
+echo "$arg"
+ls
+sleep 8
+clear
+python project_main.py
+
+
