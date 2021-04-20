@@ -22,17 +22,17 @@ echo "(04) for 4th "
 read -p "Enter the option " a
 if ["$a" == 1];
 then
-    echo "option is one "
-    $ python project_main.py
+  echo "option is one "
+  $ python project_main.py
 elif ["$a" == 2];
 then
-    echo "option is two "
+  echo "option is two "
 elif ["$a" == 3];
 then
-    echo "option os three"
+  echo "option os three"
 elif ["$a" == 4];
 then 
-    echo "option is four"
+  echo "option is four"
 else 
-    echo "enter the correct option "
+  echo "enter the correct option "
 fi
