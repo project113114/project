@@ -19,7 +19,7 @@ echo "(02) for 2nd "
 echo "(03) for 3rd "
 echo "(04) for 4th "
 
-read -p "Enter the option " arg 
+read -p "Enter the option " a
 if ["$a" == 1];
 then
     echo "option is one "
