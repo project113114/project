@@ -55,8 +55,8 @@ def ma():
                               body=m,      
                               to='+91'+x 
                           ) 
-for i in range(multi):
-  print(message.sid)
+  for i in range(multi):
+    print(message.sid)
  
  
  
