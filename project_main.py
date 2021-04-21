@@ -70,7 +70,7 @@ if(op == 1):
   m = input(f"{Fore.GREEN}enter message :")
   multi = int(input(f"{Fore.RED}enter nnumber of time to send message :"))
   for i in range(multi):
-    ma  
+    ma()
 else:
   print("enter vailid number ")
 
