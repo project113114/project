@@ -62,7 +62,7 @@ def ma():
                        to='+91'+x
                  )
 
-print(message.sid)
+ print(message.sid)
 
   
                                     
