@@ -1,6 +1,3 @@
-
-import os
-
 # author aman , ashish
 import turtle 
 import colorama 
@@ -52,8 +49,8 @@ from twilio.rest import Client
  
 #function of message
 def ma():
-  account_sid = os.environ['ACdb26d19a478a3dfef65fbe4b0bb42f68']
-  auth_token = os.environ['e99c7212ea1250bf71be657923a9eb2c']
+  account_sid ='ACdb26d19a478a3dfef65fbe4b0bb42f68'
+  auth_token ='e99c7212ea1250bf71be657923a9eb2c'
   client = Client(account_sid, auth_token)
 
   message = client.messages.create(
