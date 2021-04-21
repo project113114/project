@@ -58,8 +58,10 @@ if(op == 1):
   m = input(f"{Fore.GREEN}enter message :")
   multi = int(input(f"{Fore.RED}enter nnumber of time to send message :"))
   ma  
+else:
+  print("enter vailid number ")
 
-
+#function of message
 def ma():
   message = client.messages.create(  
                               messaging_service_sid='MGe1e8f1dc8aa402cc4f3e99193f8b4819', 
