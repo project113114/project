@@ -22,8 +22,14 @@ echo "(04) for 4th "
 read -p "Enter the option " arg 
 echo "$arg"
 ls
-sleep 8
+sleep 4
 clear
-python project_main.py
 
+if [ $arg -eq 1 ]; then
+  cd $home
+  cd project 
+  python project_main.py
+else 
+  echo error 
+fi
 
