@@ -39,7 +39,7 @@ print(logo_project)
 # some options for opration 
 print(f"{Fore.RED}OPTIONS"+ f"{Fore.GREEN} for oprations ")
 #option 
-print("1 "+f"{fore.RED}Custom sms service ")
+print("1 "+f"{Fore.RED}Custom sms service ")
 op = int(input("choose option :"))
 
 # Download the helper library from https://www.twilio.com/docs/python/install
