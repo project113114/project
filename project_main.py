@@ -40,11 +40,15 @@ print(logo_project)
 print(f"{Fore.RED}OPTIONS"+ f"{Fore.GREEN} for oprations ")
 # Download the helper library from https://www.twilio.com/docs/python/install
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 import os
 =======
 import twilio
 >>>>>>> 3102801a9759e3e0ed3ceaa54603f5e210b04237
+=======
+
+>>>>>>> bac3d1a4a77e64e4f749015d714de54057670b5c
 from twilio.rest import Client
 
 
