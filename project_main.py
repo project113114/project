@@ -55,8 +55,8 @@ def ma():
                               body=m,      
                               to='+91'+x 
                           ) 
-  for i in range(multi):
-    print(message.sid)
+  
+  print(message.sid)
  
  
  
@@ -69,7 +69,8 @@ if(op == 1):
   x = input(f"{Fore.BLUE}enter number : ")
   m = input(f"{Fore.GREEN}enter message :")
   multi = int(input(f"{Fore.RED}enter nnumber of time to send message :"))
-  ma  
+  for i in range(multi):
+    ma  
 else:
   print("enter vailid number ")
 
