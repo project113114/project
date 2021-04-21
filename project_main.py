@@ -61,8 +61,7 @@ def ma():
                        from_='+15017122661',
                        to='+91'+x
                  )
-
- print(message.sid)
+  print(message.sid)
 
   
                                     
