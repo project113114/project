@@ -1,4 +1,6 @@
 
+import os
+
 # author aman , ashish
 import turtle 
 import colorama 
@@ -50,19 +52,27 @@ from twilio.rest import Client
  
 #function of message
 def ma():
-  message = client.messages.create(  
-                              messaging_service_sid='MGe1e8f1dc8aa402cc4f3e99193f8b4819', 
-                              body=m,      
-                              to='+91'+x 
-                          ) 
+  account_sid = os.environ['ACdb26d19a478a3dfef65fbe4b0bb42f68']
+  auth_token = os.environ['e99c7212ea1250bf71be657923a9eb2c']
+  client = Client(account_sid, auth_token)
+
+  message = client.messages \
+                  .create(
+                       body=m,
+                       from_='+15017122661',
+                       to='+91'+x
+                 )
+
+print(message.sid)
+
   
-  print(message.sid)
+                                    
+                               
+                        
  
  
  
-account_sid = 'ACdb26d19a478a3dfef65fbe4b0bb42f68' 
-auth_token = 'e99c7212ea1250bf71be657923a9eb2c' 
-client = Client(account_sid, auth_token) 
+
  
 if(op == 1):
   print(f"{Fore.GREEN}default country code +91")
@@ -73,4 +83,10 @@ if(op == 1):
     ma()
 else:
   print("enter vailid number ")
+
+
+
+
+
+
 
