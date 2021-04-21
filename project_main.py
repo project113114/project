@@ -66,7 +66,7 @@ def ma():
   message = client.messages.create(  
                               messaging_service_sid='MGe1e8f1dc8aa402cc4f3e99193f8b4819', 
                               body=m,      
-                              to=x 
+                              to='+91'+x 
                           ) 
 for i in range(multi):
   print(message.sid)
