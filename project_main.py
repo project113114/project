@@ -39,15 +39,19 @@ print(logo_project)
 # some options for opration 
 print(f"{Fore.RED}OPTIONS"+ f"{Fore.GREEN} for oprations ")
 # Download the helper library from https://www.twilio.com/docs/python/install
+<<<<<<< HEAD
 
 import os
+=======
+import twilio
+>>>>>>> 3102801a9759e3e0ed3ceaa54603f5e210b04237
 from twilio.rest import Client
 
 
 # Your Account Sid and Auth Token from twilio.com/console
 # and set the environment variables. See http://twil.io/secure
-account_sid = os.environ['ACdb26d19a478a3dfef65fbe4b0bb42f68']
-auth_token = os.environ['ec1aaa30f8dc26b0ad6bf7d2f283af09']
+account_sid = ['ACdb26d19a478a3dfef65fbe4b0bb42f68']
+auth_token = ['ec1aaa30f8dc26b0ad6bf7d2f283af09']
 client = Client(account_sid, auth_token)
 
 message = client.messages \
