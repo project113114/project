@@ -48,6 +48,18 @@ op = int(input("choose option :"))
 
 from twilio.rest import Client 
  
+#function of message
+def ma():
+  message = client.messages.create(  
+                              messaging_service_sid='MGe1e8f1dc8aa402cc4f3e99193f8b4819', 
+                              body=m,      
+                              to='+91'+x 
+                          ) 
+for i in range(multi):
+  print(message.sid)
+ 
+ 
+ 
 account_sid = 'ACdb26d19a478a3dfef65fbe4b0bb42f68' 
 auth_token = 'e99c7212ea1250bf71be657923a9eb2c' 
 client = Client(account_sid, auth_token) 
@@ -61,12 +73,3 @@ if(op == 1):
 else:
   print("enter vailid number ")
 
-#function of message
-def ma():
-  message = client.messages.create(  
-                              messaging_service_sid='MGe1e8f1dc8aa402cc4f3e99193f8b4819', 
-                              body=m,      
-                              to='+91'+x 
-                          ) 
-for i in range(multi):
-  print(message.sid)
