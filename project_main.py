@@ -56,8 +56,7 @@ def ma():
   auth_token = os.environ['e99c7212ea1250bf71be657923a9eb2c']
   client = Client(account_sid, auth_token)
 
-  message = client.messages \
-                  .create(
+  message = client.messages.create(
                        body=m,
                        from_='+15017122661',
                        to='+91'+x
