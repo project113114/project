@@ -73,6 +73,7 @@ if(op == 1):
   print(f"{Fore.GREEN}default country code +91")
   x = input(f"{Fore.BLUE}enter number : ")
   m = input(f"{Fore.GREEN}enter message :")
+  print()
   multi = int(input(f"{Fore.RED}enter nnumber of time to send message :"))
   for i in range(multi):
     ma()
